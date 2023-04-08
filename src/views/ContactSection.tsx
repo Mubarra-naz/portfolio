@@ -9,7 +9,7 @@ import InputField from "@/components/text/InputField";
 
 const ContactSection = () => {
   return (
-    <div className="section p-10 md:p-20 mb-20" id="contact">
+    <div className="section p-10 md:p-20 mb-24" id="contact">
       <div className="flex flex-col md:flex-row space-y-20 md:space-x-5">
         <div className="md:max-w-[50%]">
           <SubHeading>{contactData.subtitle}</SubHeading>
