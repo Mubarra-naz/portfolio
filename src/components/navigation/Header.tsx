@@ -15,7 +15,9 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        <button className="pill-btn custom-gradient">Let's Connect</button>
+        <button className="pill-btn custom-gradient">
+          Let&lsquo;s Connect
+        </button>
       </div>
     </header>
   );

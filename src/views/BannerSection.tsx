@@ -3,7 +3,6 @@ import SubHeading from "@/components/text/SubHeading";
 import Tagline from "@/components/text/Tagline";
 import { personalData } from "@/utils/data";
 import BodyText from "@/components/text/BodyText";
-import Link from "next/link";
 import BorderBtn from "@/components/buttons/BorderBtn";
 import FillBtn from "@/components/buttons/FillBtn";
 import SocialLinks from "@/components/groups/SocialLinks";
@@ -15,7 +14,7 @@ const BannerSection = () => {
       <div className="section p-10" id="home">
         <div className=" flex justify-between items-center space-x-10 md:space-x-4">
           <div className="pt-20 md:px-10">
-            <BodyText>Hi, I'm</BodyText>
+            <BodyText>Hi, I&lsquo;m</BodyText>
             <h1 className="text-clip bg-gradient-to-r from-orange-200 to-white">
               {personalData.name}
             </h1>
