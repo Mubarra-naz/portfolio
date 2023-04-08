@@ -26,7 +26,7 @@ import frontEnd from "@/assets/images/front-end.png";
 import backend from "@/assets/images/backend.png";
 import fankaar from "@/assets/images/fankaar.png";
 import projectsImg from "@/assets/images/userOnComputer.png";
-import pricingUi from "@/assets/images/pricingUi.png";
+import pricingUi from "@/assets/images/pricingUI.png";
 import panaverse from "@/assets/images/panaverse.png";
 import lahoreTourGuide from "@/assets/images/lahoreTourGuide.png";
 import taskTracker from "@/assets/images/taskTracker.png";
