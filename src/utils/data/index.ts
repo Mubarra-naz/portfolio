@@ -227,8 +227,7 @@ export const projectsData = {
     {
       title: "panaverse DAO",
       category: "UI/UX Design, Web Development",
-      viewUrl:
-        "https://www.figma.com/file/lZiDvKSChXdEJHqEbaU4ge/DAO?node-id=0%3A1&t=4jJZJ9wVltx8ZNCm-1",
+      viewUrl: "https://panaverse-dao-chakra-mubarranaz.vercel.app/",
       codeUrl: "https://github.com/Mubarra-naz/panaverse-dao",
       imagePath: panaverse,
       description:
@@ -282,7 +281,7 @@ export const projectsData = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      title: "musical app",
+      title: "Audiosocket clone",
       category: "Web development",
       codeUrl: "https://github.com/Mubarra-naz/musical-demo-app-backend",
       viewUrl: null,

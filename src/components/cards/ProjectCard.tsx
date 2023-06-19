@@ -1,10 +1,12 @@
+"use client";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsEyeFill, BsCodeSlash } from "react-icons/bs";
 import FillBtn from "../buttons/FillBtn";
 import SocialIcon from "../links/SocialIcon";
-import Tagline from "../text/Tagline";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/framerMotion";
 
 type projectProps = {
   title: string;
@@ -21,7 +23,12 @@ const ProjectCard = ({
   codeUrl,
 }: projectProps) => {
   return (
-    <div className="relative flex items-center justify-center h-full w-full md:w-[30%] md:h-auto rounded-xl group hover:bg-black/70 transition-all duration-300 overflow-hidden border-2 border-white/50 mt-12 md:mx-3">
+    <motion.div
+      variants={fadeIn("left", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      className="relative flex items-center justify-center h-full w-full md:w-[30%] md:h-auto rounded-xl group hover:bg-black/70 transition-all duration-300 overflow-hidden border-2 border-white/50 mt-12 md:mx-3"
+    >
       <Image
         src={img}
         alt="/"
@@ -44,7 +51,7 @@ const ProjectCard = ({
           <SocialIcon path={codeUrl} icon={<BsCodeSlash size={32} />} />
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

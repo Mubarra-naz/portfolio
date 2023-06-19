@@ -1,5 +1,7 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/framerMotion";
 
 const Profile = ({
   img,
@@ -9,9 +11,14 @@ const Profile = ({
   [rest: string]: any;
 }) => {
   return (
-    <div {...rest}>
+    <motion.div
+      variants={fadeIn("down", 0.3)}
+      initial="hidden"
+      whileInView="show"
+      {...rest}
+    >
       <Image src={img} alt="profile" className="md:w-full" />
-    </div>
+    </motion.div>
   );
 };
 

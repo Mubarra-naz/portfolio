@@ -16,7 +16,9 @@ const Header = () => {
           </Link>
         </div>
         <button className="pill-btn custom-gradient">
-          Let&lsquo;s Connect
+          <Link href="https://www.linkedin.com/in/mubarra-naz/" target="_blank">
+            Let&lsquo;s Connect
+          </Link>
         </button>
       </div>
     </header>

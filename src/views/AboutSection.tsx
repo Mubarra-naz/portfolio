@@ -7,13 +7,19 @@ import SubHeading from "@/components/text/SubHeading";
 import BodyText from "@/components/text/BodyText";
 import AboutCard from "@/components/cards/AboutCard";
 import { useInView } from "react-intersection-observer";
-import { inView } from "framer-motion";
+import { inView, motion } from "framer-motion";
+import { fadeIn } from "@/utils/framerMotion";
 
 const AboutSection = () => {
   const [ref, inView] = useInView({ threshold: 0.5 });
   return (
     <div className="section md:w-[90%] relative h-[100vh]" id="about" ref={ref}>
-      <div className="px-10 md:px-20 z-10 w-full">
+      <motion.div
+        variants={fadeIn("right", 0.3)}
+        initial="hidden"
+        whileInView="show"
+        className="md:px-20 z-10 w-full py-10 px-7"
+      >
         <SubHeading>{aboutData.subTitle}</SubHeading>
         <MainHeading>{aboutData.title}</MainHeading>
         <BodyText>{aboutData.body}</BodyText>
@@ -28,7 +34,7 @@ const AboutSection = () => {
             />
           ))}
         </div>
-      </div>
+      </motion.div>
       <Image
         src={BgBanner}
         alt="banner-img"
