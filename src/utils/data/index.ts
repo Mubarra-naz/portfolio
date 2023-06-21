@@ -52,7 +52,7 @@ export const aboutData = {
   subTitle: "About Me",
   title: "Who I Am",
   body: [
-    "A tech enthusiast flourishing expertise in software development & design. I work on multiple technologies including Ruby on Rails, React, Next.Js, Tailwind CSS, Chakra UI. Playing with tech & evolving with time is my motto for technology. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "A skilled software engineer with a passion for crafting innovative solutions and turning complex problems into elegant code. I thrive on designing and developing efficient software applications that meet user needs and exceed expectations. I belive in continuous evolution and like to work on challenging projects. I've honed my expertise by working on distinguishing projects implementitng best technical practices. Currently, I'm working on cutting edge technologies in Web 2.0 and my next goal is to dive into the world of Web3.0 and Metaverse. I am excited about the opportunity to collaborate with like-minded professionals and tackle challenging projects that push the boundaries of what's possible in the software engineering realm. Let's connect and create something amazing together!",
   ],
   stats: [
     {
@@ -99,12 +99,12 @@ export const aboutData = {
 
 export const skillsData = {
   heading: "What I do?",
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  text: "Wroking as a full stack developer I've built a wide skillset for myself. I have worked in various programming languages and frameworks, including best practices in Ruby on Rails, advance practices in Next.Js 13, Headless CMS including Sanity and Contentful and Neon Serverless Database.",
   services: [
     {
       icon: frontEnd,
       title: "Frontend Development",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      text: "With expertise in ReactJs, Redux Toolkit, NextJs and Headless CMS I'm striving to create intuitive, interactive interfaces crafting engaging user experiences through clean and efficient code.",
     },
     {
       icon: backend,
