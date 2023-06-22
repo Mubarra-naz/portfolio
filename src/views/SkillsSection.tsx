@@ -21,7 +21,7 @@ const SkillsSection = () => {
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView="show"
-            className="relative"
+            className="relative md:h-[60vh]"
           >
             <SubHeading>{skillsData.subHeading}</SubHeading>
             <MainHeading>{skillsData.heading}</MainHeading>
@@ -36,7 +36,7 @@ const SkillsSection = () => {
             variants={fadeIn("left", 0.3)}
             initial="hidden"
             whileInView="show"
-            className="flex flex-col justify-between"
+            className="flex flex-col justify-around"
           >
             {skillsData.services.map((service, index) => (
               <div

@@ -109,13 +109,13 @@ export const skillsData = {
     {
       icon: backend,
       title: "Backend Development",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      text: "With a strong command over databases, logical & analytical thinking and API development, I am driven to create efficient, scalable and secure solutions that ensure seamless functionality, performance and data integrity",
     },
-    {
-      icon: ux,
-      title: "UI/UX Design",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    // {
+    //   icon: ux,
+    //   title: "UI/UX Design",
+    //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
   ],
   subHeading: "Technologies I work on",
   skillsList: [
