@@ -22,6 +22,11 @@ const quicksand = Quicksand({
   weight: ["400"],
 });
 
+export const metadata = {
+  title: "Mubarra Naz",
+  description: "Mubarra Naz Portfolio",
+};
+
 export default function RootLayout({
   children,
 }: {
