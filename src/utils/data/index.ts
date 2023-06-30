@@ -1,4 +1,4 @@
-import profile from "@/assets/images/profile0.png";
+import profile from "@/assets/images/profile.png";
 import html from "@/assets/images/html-5.png";
 import css3 from "@/assets/images/css3.png";
 import js from "@/assets/images/js.png";
